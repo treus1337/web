@@ -173,7 +173,7 @@
     height: 24px;
     object-fit: contain;
   }
-     .spotify-link {
+.spotify-link {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -184,11 +184,11 @@
     margin-top: 10px;
   }
   
-  .spotify-link:hover {
+.spotify-link:hover {
     color: #6D28D9;
   }
   
-  .spotify-icon {
+.spotify-icon {
     width: 24px;
     height: 24px;
     object-fit: contain;
