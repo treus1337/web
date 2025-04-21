@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jose Signori</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="imagenes/creeper.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="container nav">
+      <div class="logo">/_/_/</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">01 | Home</a></li>
+        <li><a href="#proyectos">02 | Projects</a></li>
+        <li><a href="#sobre-mi">03 | About me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero container fade-in">
+      <h1>Hi, I'm <span class="highlight">Jose Signori</span></h1>
+      <p> (aka treus) 19 & trying my best.</p>
+    </section>
+
+    <section id="proyectos" class="section container fade-in">
+      <h2>Cool stuff I've made</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Discord bot</h3>
+          <p>Easy discord voice and response bot</p>
+        </div>
+        <div class="card">
+          <h3>Interactive Portfolio</h3>
+          <p>Responsive design with smooth animations and modular sections.</p>
+        </div>
+        <div class="card">
+          <h3>Toyota website</h3>
+          <p>A website with modern interface.</p>
+        </div>
+      </div>
+    </section>
+    
+
+<section id="habilidades" class="section container fade-in">
+    <h2>I'm good at these...</h2>
+    <div class="habilidades-grid">
+      <div class="habilidad">
+        <img src="imagenes/html5.png" alt="HTML5" class="habilidad-icon" />
+        <span>HTML5</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/css3.png" alt="CSS3" class="habilidad-icon" />
+        <span>CSS3</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/javascript.png" alt="JavaScript" class="habilidad-icon" />
+        <span>JavaScript</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/java.png" alt="Java" class="habilidad-icon" />
+        <span>Java</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/python.png" alt="Python" class="habilidad-icon" />
+        <span>Python</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/lua.png" alt="Lua" class="habilidad-icon" />
+        <span>Lua</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/nodejs.png" alt="Node.js" class="habilidad-icon" />
+        <span>Node.js</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/mysql.png" alt="MySQL" class="habilidad-icon" />
+        <span>MySQL</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/mssql.png" alt="Microsoft SQL" class="habilidad-icon" />
+        <span>Microsoft SQL</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/c++.png" alt="C#" class="habilidad-icon" />
+        <span>C++</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/csharp.png" alt="C#" class="habilidad-icon" />
+        <span>C#</span>
+      </div>
+      <div class="habilidad">
+        <img src="imagenes/php.png" alt="C#" class="habilidad-icon" />
+        <span>php</span>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+<section id="sobre-mi" class="section container fade-in">
+    <h2>About me</h2>
+    <p>
+        I am currently studying at <strong>Universidad Tecnológica del Perú</strong>, where I strive to give my best in all the programming languages I'm learning, such as HTML5, CSS3, JavaScript, Python, and more. I am committed to continuing my learning and growing in various areas of programming, digital design, and technology.
+        </p>
+    <div class="social">
+      <a href="https://github.com/treus1337" target="_blank" class="github-link" aria-label="GitHub">
+        <img src="imagenes/github.png" alt="GitHub" class="github-icon" />
+        <span>github.com/treus1337</span>
+      </a>
+    </div>
+    
+    <div class="social">
+        <a href="gmail.com" target="_blank" class="gmail-link" aria-label="Gmail">
+          <img src="imagenes/gmail.png" alt="Gmail" class="gmail-icon" />
+          <span>josesignori15@gmail.com</span>
+        </a>
+      </div>
+      
+  </section>  
+  
+  </section>
+  
+  
+  
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Jose Signori — crafted with love</p>
+    </div>
+  </footer>
+
+  <script>
+    const elements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
