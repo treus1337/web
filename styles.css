@@ -173,7 +173,7 @@
     height: 24px;
     object-fit: contain;
   }
-.spotify-link {
+  .spotify-link {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -193,6 +193,7 @@
     height: 24px;
     object-fit: contain;
   }
+
 
 .habilidades-grid {
     display: grid;
